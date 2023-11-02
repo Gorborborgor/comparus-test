@@ -1,0 +1,22 @@
+.results {
+  padding: 40px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.result-title {
+  font-size: 115px;
+  font-weight: 500;
+  font-family: 'DHF Story Brush';
+  line-height: 1;
+
+  &.win {
+    color: #0c9100;
+  }
+
+  &.lose {
+    color: #c03030;
+  }
+}
