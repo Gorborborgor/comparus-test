@@ -7,6 +7,7 @@ import { CellDirective } from './shared/directives/cell.directive';
 import { MatDialogModule} from '@angular/material/dialog';
 import { EndgameDialogComponent } from './shared/modals/endgame-dialog/endgame-dialog.component';
 import { ScoreboardComponent } from './shared/components/scoreboard/scoreboard.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ScoreboardComponent } from './shared/components/scoreboard/scoreboard.c
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
